@@ -33,6 +33,8 @@ android {
 
 dependencies {
 
+
+
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -42,4 +44,6 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     val lottieVersion ="6.4.0"
     implementation("com.airbnb.android:lottie-compose:$lottieVersion")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
 }
